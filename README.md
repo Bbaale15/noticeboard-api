@@ -11,8 +11,7 @@ Restful api for Noticeboard application CRUD operations.
 # Database setup
 
 - Ensure you have mongo database installed
-- Create a database
-- Update database connection properties in index.js
+- Create .env file in project root and add MONGO_DB = DB_PATH
 
 # Running locally
 
