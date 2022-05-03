@@ -6,4 +6,5 @@ app.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Noticeboard API is running' });
 });
 
-app.listen(3330, () => console.log('Server running'));
+const port: string = process.env.PORT || '3330';
+app.listen(port, () => console.log('Server running'));
