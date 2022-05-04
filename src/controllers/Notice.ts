@@ -48,7 +48,7 @@ const getAllNotices = async (
 ) => {
   try {
     const notices = await Notice.find();
-    return res.status(200).json({ notices });
+    return res.status(200).json(notices);
   } catch (error) {
     return res.status(500).json({ error });
   }
